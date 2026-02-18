@@ -12,3 +12,13 @@ def apply_pos_tagging(df):
     df.to_csv(output_path, index=False, encoding="utf-8")
 
     return df
+
+
+import spacy
+import pandas as pd
+from pathlib import Path
+
+# Cargar modelo una sola vez (similar a como hicimos con token_spacy)
+_nlp_pos = None
+
+
