@@ -12,3 +12,15 @@ def carga_limpios():
     BASE_DIR = Path(__file__).resolve().parents[2]
     DATA_PATH = BASE_DIR / "data" / "processed" / "lyrics_clean.csv"
     return pd.read_csv(DATA_PATH)
+
+def carga_pos_nltk():
+    """Carga del corpus linguistico limpio en csv"""
+    BASE_DIR = Path(__file__).resolve().parents[2]
+    DATA_PATH = BASE_DIR / "data" / "processed" / "lyrics_pos_tagged_nltk.csv"
+    return pd.read_csv(DATA_PATH)
+
+def carga_pos_spacy():
+    """Carga del corpus linguistico limpio en csv"""
+    BASE_DIR = Path(__file__).resolve().parents[2]
+    DATA_PATH = BASE_DIR / "data" / "processed" / "lyrics_pos_tagged_spacy.csv"
+    return pd.read_csv(DATA_PATH)

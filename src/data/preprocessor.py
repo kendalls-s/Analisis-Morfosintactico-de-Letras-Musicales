@@ -18,9 +18,6 @@ def token_nltk(df):
 
 
 import spacy
-import pandas as pd
-from pathlib import Path
-
 # Variable global para el modelo
 _nlp = None
 
