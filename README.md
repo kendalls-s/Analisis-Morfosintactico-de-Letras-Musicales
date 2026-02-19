@@ -1,9 +1,9 @@
 # An-lisis-Morfosint-ctico-de-Letras-Musicales
 
 # Descripción 
+Este proyecto tiene como objetivo realizar un análisis lingüístico de las letras de canciones. Por medio de técnicas de procesamiento del lenguaje natural (PLN), llevamos a cabo un análisis morfosintáctico (con etiquetado POS y tokenización) para identificar patrones estilísticos, el uso de categorías gramaticales y otras características del texto lírico.
 
-Este proyecto tiene como objetivo realizar un analisis linguistico de las letras de canciones. Por medio de tecnicas de natural proccessing lenguage o procesamiento de lenguaje nautarl (PLN), realizamos un analisis morfosintactico (Con etiquetado POS y tokenizacion), para asi, patrones estilisticos, uso de categortias gramaticales y otras caracteristicas sobre el texto lirico.
-Ademas de que se realizo una compartacion entre los generos musicales que contiene el corpus linguitisco que se utilizo en conjunto con un analisis de evolucion tempral quer contiene el corpus didvido por las decadas entre la decada de 19070 y la decada del 2010 
+Además, se realizó una comparación entre los géneros musicales que conforman el corpus lingüístico utilizado, en conjunto con un análisis de evolución temporal del corpus, dividido por décadas, desde la década de 1970 hasta la década de 2010.
 
 # Características principales
 
