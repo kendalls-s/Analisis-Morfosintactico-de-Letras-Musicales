@@ -1,7 +1,7 @@
 from nltk.tag import pos_tag
 from pathlib import Path
 
-def apply_pos_tagging(df):
+def apply_pos_tagging_nltk(df):
     df['pos_tags'] = df['tokens'].apply(lambda tokens: pos_tag(tokens))
 
     # Construir ruta destino
