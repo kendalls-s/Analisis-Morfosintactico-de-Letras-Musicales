@@ -19,14 +19,25 @@ Ademas de que se realizo una compartacion entre los generos musicales que contie
 
 
 # Estructura del proyecto
+
 ├── data/               # Datos crudos y procesados (ej. lyrics_clean.csv)
+
 ├── notebooks/          # Jupyter notebooks para experimentación y análisis
+
 ├── src/                # Código fuente principal (módulos de análisis)
+
 ├── scripts/            # Scripts de utilidad y automatización
+
 ├── dashboard/          # Aplicación de visualización (si aplica)
+
 ├── outputs/            # Resultados, gráficos y tablas generadas
+
 ├── tests/              # Pruebas unitarias
+
 ├── docs/               # Documentación adicional
+
 ├── requirements.txt    # Dependencias del proyecto
+
 ├── USO_DE_IA.md        # Declaración de uso de inteligencia artificial
+
 └── README.md           # Este archivo
