@@ -41,3 +41,17 @@ Uso responsable de IA: Documentación del proceso y herramientas de IA empleadas
 ├── USO_DE_IA.md        # Declaración de uso de inteligencia artificial
 
 └── README.md           # Este archivo
+
+# Tecnologías utilizadas
+
+Lenguajes: Python (99.1%), Jupyter Notebook
+
+Librerías principales: spaCy, pandas, numpy, matplotlib/seaborn (inferido del contexto)
+
+Herramientas: Git, entornos virtuales
+
+# Contribuidores
+
+Kendall Solano Solís 
+
+Roberto Coto Guevara 
