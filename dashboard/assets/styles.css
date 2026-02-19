@@ -1,0 +1,34 @@
+/* dashboard/assets/styles.css
+   Estilos adicionales para el dashboard POS Tagging
+*/
+
+/* Plotly overrides */
+.js-plotly-plot .plotly .user-select-none {
+  font-family: 'DM Mono', monospace !important;
+}
+
+/* Tab styles */
+.custom-tab {
+  background-color: #1A1714 !important;
+  border: 1px solid #2E2A24 !important;
+  color: #8A8070 !important;
+  font-family: 'DM Mono', monospace !important;
+  font-size: 0.8rem !important;
+  padding: 0.6rem 1rem !important;
+}
+.custom-tab--selected {
+  background-color: #252118 !important;
+  border-bottom: 2px solid #F5A623 !important;
+  color: #F5A623 !important;
+}
+
+/* Loading spinner color */
+._dash-loading {
+  color: #F5A623;
+}
+
+/* Smooth card hover */
+.card-dark:hover {
+  border-color: #4A433A;
+  transition: border-color 0.2s;
+}
