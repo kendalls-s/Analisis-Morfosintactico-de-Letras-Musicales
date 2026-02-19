@@ -7,15 +7,15 @@ Ademas de que se realizo una compartacion entre los generos musicales que contie
 
 # Características principales
 
-## Extracción y limpieza de letras: Procesamiento de datos crudos (ej. lyrics_clean.csv) para su análisis.
+Extracción y limpieza de letras: Procesamiento de datos crudos (ej. lyrics_clean.csv) para su análisis.
 
-## Análisis morfosintáctico: Implementación de pipelines con librerías como spaCy (ver notebooks/ y src/).
+Análisis morfosintáctico: Implementación de pipelines con librerías como spaCy (ver notebooks/ y src/).
 
-## Visualización interactiva: Dashboard para explorar los resultados (carpeta dashboard/).
+Visualización interactiva: Dashboard para explorar los resultados (carpeta dashboard/).
 
-## Código modular: Scripts organizados en src/ y utilidades en scripts/ para facilitar su reutilización.
+Código modular: Scripts organizados en src/ y utilidades en scripts/ para facilitar su reutilización.
 
-## Uso responsable de IA: Documentación del proceso y herramientas de IA empleadas en USO_DE_IA.md.
+Uso responsable de IA: Documentación del proceso y herramientas de IA empleadas en USO_DE_IA.md.
 
 
 # Estructura del proyecto
