@@ -30,3 +30,26 @@ El uso de inteligencia artificial resultó fundamental para identificar los prin
 
 Eliminacion de comentarios innecesarios y eliminacion de partes del bloque de codigo repetitivas
 
+
+
+# Uso de IA en el Proyecto 2
+# Qué herramientas de IA utilizaron y para qué tareas específicas
+Herramienta  de motor de IA Claude para lograr utilizar de una manera optima la parte del Web Scraping, ya que tuvimos problemas a la hora utilizar una de las opciones para hacer web scraping desde HTML por bloqueo de direccion IP, asi como tambien correccion de errores y orientacion para la mejor opcion de Web Scraping 
+
+
+# Ejemplos de prompts utilizados (mínimo 3-5 ejemplos representativos)
+
+"Comportate como un experto en wb scraping desde html"
+
+"Porque a la hora de hacer Web Scraping desde el https://www.azlyrics.com no guarda ninguna cancion"
+
+"Necesito una forma de HACER wEB scraping donde si logre guardar almenos 1000 canciones nuevas"
+
+# Reflexión sobre cómo la IA ayudó en su aprendizaje (1-2 párrafos)
+
+El uso de la inteligencia artificial resulto fundamental para la correcion de errortes, problemas con el Web scraping lo que nos hizo entender cuales fueron los problemas principales a la hora de realizar esta parte del proyecto, ya que a pesar de que se intento varias veces, no lograbamos determinar cual era el error con AZLyrics.
+
+
+# Qué modificaciones hicieron al código/análisis generado por IA
+Modificacion de las rutas del Web Scraping ademas de eliminacion de partes del codigo repetitivas o innecesarias 
+
