@@ -2,7 +2,6 @@ import requests
 import time
 import pandas as pd
 import logging
-from langdetect import detect, LangDetectException
 from tqdm import tqdm
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -29,12 +28,8 @@ def fetch_lyrics_ovh(artist: str, song: str, timeout=10, retries=2) -> str:
     return None
 
 def detectar_idioma(texto: str) -> str:
-    if not isinstance(texto, str) or len(texto.strip()) < 50:
-        return 'unknown'
-    try:
-        return detect(texto[:1000])
-    except LangDetectException:
-        return 'unknown'
+    """Idioma fijo en 'en' (detección de idioma deshabilitada)."""
+    return 'en'
 
 
 # ------------------------------------------------------------
