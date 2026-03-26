@@ -32,7 +32,7 @@ Eliminacion de comentarios innecesarios y eliminacion de partes del bloque de co
 
 
 
-Uso de IA en el Proyecto 2
+# Uso de IA en el Proyecto 2
 # Qué herramientas de IA utilizaron y para qué tareas específicas
 Herramienta  de motor de IA Claude para lograr utilizar de una manera optima la parte del Web Scraping, ya que tuvimos problemas a la hora utilizar una de las opciones para hacer web scraping desde HTML por bloqueo de direccion IP, asi como tambien correccion de errores y orientacion para la mejor opcion de Web Scraping 
 
