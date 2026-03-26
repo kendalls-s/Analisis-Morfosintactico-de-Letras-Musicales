@@ -48,3 +48,35 @@ def limpiar_dataset_csv(df):
     resultado.to_csv(output_path, index=False, encoding="utf-8")
 
     return resultado
+
+
+
+def limpiar_dataset_scraping(df: pd.DataFrame, collection=None) -> pd.DataFrame:
+    """
+    Limpia el dataset proveniente del scraping de lyrics.ovh y lo inserta
+    en MongoDB usando la misma colección y estructura que lyrics_dataset.csv.
+
+    Columnas esperadas de entrada: Song, Song year, Artist, Genre, Lyrics
+    Columnas de salida (esquema MongoDB):
+        _id, Song, Artist, Genre, Song year, Lyrics,
+        Language, Source, Url, collection_date
+    """
+
+    resultado = pd.DataFrame()
+    resultado["id"]              = [str(ObjectId()) for _ in range(len(df))]
+    resultado["Song"]             = df["Song"].str.strip()
+    resultado["Artist"]           = df["Artist"].str.strip()
+    resultado["Genre"]            = df["Genre"].str.strip()
+    resultado["Song year"]        = pd.to_numeric(df["Song year"], errors="coerce")
+    resultado["Lyrics"]           = df["Lyrics"].apply(limpiar_texto)
+    resultado["Language"]         = "en"
+    resultado["Source"]           = "lyrics.ovh"
+    resultado["Url"]              = "https://lyrics.ovh/"
+    resultado["collection_date"]  = datetime.now(tz=timezone.utc).strftime("%d-%m-%Y")
+
+    project_root = Path.cwd().parent
+    output_path = project_root / "data" / "processed" / "lyrics_clean_scraping.csv"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    resultado.to_csv(output_path, index=False, encoding="utf-8")
+
+    return resultado
