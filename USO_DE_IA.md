@@ -45,6 +45,13 @@ Herramienta  de motor de IA Claude para lograr utilizar de una manera optima la 
 
 "Necesito una forma de HACER wEB scraping donde si logre guardar almenos 1000 canciones nuevas"
 
+"Puedes arreglar o mejorar esto"
+
+"Agregale esto al dashboard"
+
+"Con respecto a esto genera esto"
+
+
 # Reflexión sobre cómo la IA ayudó en su aprendizaje (1-2 párrafos)
 
 El uso de la inteligencia artificial resulto fundamental para la correcion de errortes, problemas con el Web scraping lo que nos hizo entender cuales fueron los problemas principales a la hora de realizar esta parte del proyecto, ya que a pesar de que se intento varias veces, no lograbamos determinar cual era el error con AZLyrics.
