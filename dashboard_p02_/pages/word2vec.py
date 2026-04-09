@@ -47,11 +47,6 @@ layout = html.Div(className="page-inner", children=[
          "Coseno entre vector promedio de cada género",
          "fig-w2v-genre-sim", tall=True, full=True),
 
-    # Analogías + vocab size
-    html.Div(className="grid-2", children=[
-        card("Analogías Vectoriales",  "Operaciones semánticas",        "fig-w2v-analogies"),
-        card("Vocabulario por Género", "CBOW vs Skip-Gram (palabras únicas)", "fig-w2v-vocab-size"),
-    ]),
 ])
 
 # ── Callbacks ──────────────────────────────────────────────────────────────────

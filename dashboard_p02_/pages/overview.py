@@ -32,10 +32,6 @@ layout = html.Div(className="page-inner", children=[
         chart_card("Distribución por Género",  "Corpus completo",  "fig-genre-dist"),
         chart_card("Canciones por Fuente",     "Kaggle vs Genius", "fig-source"),
     ]),
-    html.Div(className="grid-2", children=[
-        chart_card("Longitud de Letras por Género","Palabras por canción","fig-lyrics-len", tall=True),
-        chart_card("Línea de Tiempo del Corpus",   "Canciones por año",  "fig-timeline",   tall=True),
-    ]),
 ])
 
 # ── Callbacks ──────────────────────────────────────────────────────────────────
