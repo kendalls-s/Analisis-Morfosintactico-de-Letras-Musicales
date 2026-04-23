@@ -120,33 +120,47 @@ Uso responsable de IA: Documentación del proceso y herramientas de IA empleadas
 # Estructura del proyecto # 3
 
 ├── notebooks/
+
 │   ├── 01_exploracion_corpus.ipynb        # Estadísticas del dataset
+
 │   ├── 02_rag_pipeline.ipynb              # Chunking + embeddings + FAISS + generador
+
 │   ├── 03_finetuning_clasificador.ipynb   # Entrenamiento del modelo especializado
+
 │   └── 04_chatbot_completo.ipynb          # Chatbot integrado (pruebas en notebook)
 
 
 ├── app/
+
 │   ├── chatbot_app.py                     # Aplicación Plotly Dash (punto de entrada)
+
 │   └── config.py                          # Variables de entorno, rutas, API keys
 
 
 ├── src/
+
 │   ├── rag_utils.py                       # Chunking, embeddings, FAISS, búsqueda
+
 │   ├── finetuning_utils.py                # Dataset, Trainer, evaluación
+
 │   └── chatbot_engine.py                  # Clase del chatbot (memoria, prompt, generación)
-│
+
 ├── data/
+
 │   ├── corpus_canciones.csv               # El mismo dataset de proyectos 1 y 2
+
 │   └── embeddings_cache/                  # Embeddings pre-calculados (numpy o pickle)
 
 
 ├── models/                                # Modelo fine-tuneado guardado
-├── resultados/                            # Métricas, matrices de confusión, logs
-├── requirements.txt                       # Dependencias del proyecto
-├── USO_DE_IA.md                           # Declaración de uso de inteligencia artificial
-└── README.md                              # Este archivo
 
+├── resultados/                            # Métricas, matrices de confusión, logs
+
+├── requirements.txt                       # Dependencias del proyecto
+
+├── USO_DE_IA.md                           # Declaración de uso de inteligencia artificial
+
+└── README.md                              # Este archivo
 
 
 # Tecnologías utilizadas
