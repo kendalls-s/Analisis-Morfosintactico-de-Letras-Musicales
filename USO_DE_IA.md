@@ -31,6 +31,9 @@ El uso de inteligencia artificial resultó fundamental para identificar los prin
 Eliminacion de comentarios innecesarios y eliminacion de partes del bloque de codigo repetitivas
 
 
+--------------------------------------------
+-------------------------------------------
+
 
 # Uso de IA en el Proyecto 2
 # Qué herramientas de IA utilizaron y para qué tareas específicas
@@ -60,10 +63,17 @@ El uso de la inteligencia artificial resulto fundamental para la correcion de er
 # Qué modificaciones hicieron al código/análisis generado por IA
 Modificacion de las rutas del Web Scraping ademas de eliminacion de partes del codigo repetitivas o innecesarias 
 
+
+-------------------------------------
+-------------------------------------
+
+
 # Uso de IA en el Proyecto 3
 
 # Qué herramientas de IA utilizaron y para qué tareas específicas
-Utilizacion de la Herramienta Claude, para la creacion de una nueva conexion en la herramienta MongoDB para asi lograr tener una armonia entre los proyectos de cada integrante de este grupo, ya que en uno de los casos unicamente se habia utilizado dicha herramienta una sola vez, asi como tambien para la generacion de codigo de la parte de la interfaz grafica del Chatbot 
+Utilizacion de la Herramienta Claude, para la creacion de una nueva conexion en la herramienta para asi lograr tener una armonia entre los proyectos de cada integrante de este grupo, ya que en uno de los casos unicamente se habia utilizado dicha herramienta una sola vez, asi como tambien para la generacion de codigo de la parte de la interfaz grafica del Chatbot y mejorar el codigo de los diferentes Jupyter y archivos py
+
+Ademas se uso Gemini para mejorar la conexion con sus servicios para el chatbot
 
 # Ejemplos de prompts utilizados (mínimo 3-5 ejemplos representativos)
 
@@ -71,7 +81,15 @@ Utilizacion de la Herramienta Claude, para la creacion de una nueva conexion en 
 
 "Tengo el mongo en blanco por eso preguntaba si es necario que tenga el mongo listo"
 
-"solo una cosa mas, crees que a la interafz grafica del ChatBot se le pueda cambiar el tipo de letra y el color de fondo por azul"
+"solo una cosa mas, crees que a la interafz grafica del ChatBot se le pueda cambiar el tipo de letra y el color de fondo por azul oscuro"
+
+"Revisa que falta segun el archivo"
+
+"Arregla y mejora esto"
+
+"haz que la interfaz/jupyter se vea mas profesional y ordenado"
+
+"Como hago esto?"
 
 # Reflexión sobre cómo la IA ayudó en su aprendizaje (1-2 párrafos)
 
@@ -79,5 +97,9 @@ La utilizacion de la inteligencia artificial en este proyecto fue de muy buena a
 
 # Qué modificaciones hicieron al código/análisis generado por IA
 
-Modificacion de interfaz grafica, contexto de Mongo y conexion, trabajo utilizacion de los mismos 
+Modificacion de interfaz grafica, contexto de Mongo o csv y conexion, trabajo utilizacion de los mismos 
+
+Generacion de codigo para mejorar resultados para lo requerido
+
+Haz una mejor comparacion y validacion a entre tipo de procesamient
 
