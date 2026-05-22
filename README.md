@@ -1,4 +1,6 @@
-# Proyecto #1  An-lisis-Morfosint-ctico-de-Letras-Musicales - Proyecto 2 Analisis Semantico de letras musicales - Proyecto #3 — Chatbot Musical Inteligente: Agente Conversacional con RAG y Fine-Tuning
+# Proyecto #1  Analisis Morfosintactico de Letras Musicales     
+# Proyecto #2 Analisis Semantico de letras musicales    
+# Proyecto #3  Chatbot Musical Inteligente: Agente Conversacional con RAG y Fine-Tuning
 
 # Descripción 
 Este proyecto tiene como objetivo realizar un análisis lingüístico de las letras de canciones. Por medio de técnicas de procesamiento del lenguaje natural (PLN), llevamos a cabo un análisis morfosintáctico (con etiquetado POS y tokenización) para identificar patrones estilísticos, el uso de categorías gramaticales y otras características del texto lírico.
